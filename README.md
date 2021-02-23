@@ -1,6 +1,6 @@
 # python-learning
 
-##Installing Python
+Installing Python
 
 We went to the Python page for the intitial download: (https://www.python.org/downloads/)
 After selecting the most recent version (3.9.2) for Mac OSX, I downloaded it to my computer.
