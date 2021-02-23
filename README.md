@@ -12,11 +12,11 @@ Then, we found a beginning tutorial for getting Python set up on VS Code (https:
 
 Installing Python using Homebrew by opening the Mac Terminal and typing: 
 
-     brew install python3
+`brew install python3`
   
 Once installation was complete, we verified by typing: 
 
-     python3 --version
+`python3 --version`
 
 this returned the most recent version 3.9.2
 
@@ -24,16 +24,19 @@ this returned the most recent version 3.9.2
 
 Then we started a VS Code project: 
 
-      mkdir hello
-      cd hello
-      code .
+`mkdir hello`
+
+`cd hello`
+
+`code .`
 
 ## Hello World
 
 Inside the project we selected a Python interpreter by opening the Command Pallette and typing: Python: Select Interpreter. Then we created a folder titled "hello" with a file titled "hello.py" and then in the file we entered the following code: 
 
-      msg = "Hello World"
-      print(msg)
+`msg = "Hello World"`
+
+`print(msg)`
 
 To run the msg we clicked the Run Python File in Terminal play button which is a green arrow located in the top right hand corner of the code editor, next to the button that allows the user to split the screen. This runs the msg in the integrated terminal (print is synonymous with console.log in Python).
 
@@ -43,9 +46,11 @@ Following the successful run of the Hello World message, the tutorial then direc
 
 We also explored working with variables in the Debug Console in the integrated terminal:
 
-     msg
-     msg.capitalize()
-     msg.split()
+`msg`
+
+`msg.capitalize()`
+
+`msg.split()`
 
 ## Installing & Using Packages
 
