@@ -51,16 +51,21 @@ We also explored working with variables in the Debug Console in the integrated t
 
 The final portion of the tutorial involves installing and using packages. We're prompted to open a new file called "standardplot.py" and pasting in the following code:
 
-      import matplotlib.pyplot as plt
-      import numpy as np
+`import matplotlib.pyplot as plt`
 
-      x = np.linspace(0, 20, 100)  # Create a list of evenly-spaced numbers over the range
-      plt.plot(x, np.sin(x))       # Plot the sine of each x point
-      plt.show()                   # Display the plot
+`import numpy as np`
+
+
+`x = np.linspace(0, 20, 100)  # Create a list of evenly-spaced numbers over the range
+`
+`plt.plot(x, np.sin(x))       # Plot the sine of each x point`
+
+`plt.show()                   # Display the plot`
 
 Running this code through the debugger results in a message: "ModuleNotFoundError: No module named 'matplotlib'" because we have not previously installed the matplotlib package. The tutorial then directs you to set up a project-specific virtual environment in the terminal and then install the package with the following lines of code in the terminal:
 
 `python3 -m venv .venv`
+
 `source .venv/bin/activate`
 
 Then:
