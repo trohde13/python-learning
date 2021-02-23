@@ -18,14 +18,14 @@ this returned the most recent version 3.9.2
 
 Then we started a VS Code project: 
 
-  ```mkdir hello
-  cd hello
-  code .```
+  `mkdir hello`
+  `cd hello`
+  `code .`
 
 Inside the project we selected a Python interpreter by opening the Command Pallette and typing: Python: Select Interpreter. Then we created a folder titled "hello" with a file titled "hello.py" and then in the file we entered the following code: 
 
-  ```msg = "Hello World"
-  print(msg)```
+  `msg = "Hello World"`
+  `print(msg)`
 
 To run the msg we cliked the Run Python File in Terminal play button which is a green arrow located in the top right hand corner of the code editor, next to the button that allows the user to split the screen. This runs the msg in the integrated terminal (print is synonomous with console.log in Python).
 
@@ -33,23 +33,23 @@ Following the successful run of the Hello World message, the tutorial then direc
 
 We also explored working with variables in the Debug Console in the integrated terminal:
 
-  ```msg
-  msg.capitalize()
-  msg.split()```
+  `msg`
+  `msg.capitalize()`
+  `msg.split()`
 
 The final portion of the tutorial involves installing and using packages. We're prompted to open a new file called "standardplot.py" and pasting in the following code:
 
-  ```import matplotlib.pyplot as plt
-  import numpy as np
+  `import matplotlib.pyplot as plt`
+  `import numpy as np`
 
-  x = np.linspace(0, 20, 100)  # Create a list of evenly-spaced numbers over the range
-  plt.plot(x, np.sin(x))       # Plot the sine of each x point
-  plt.show()                   # Display the plot```
+  `x = np.linspace(0, 20, 100)  # Create a list of evenly-spaced numbers over the range`
+  `plt.plot(x, np.sin(x))       # Plot the sine of each x point`
+  `plt.show()                   # Display the plot`
 
 Running this code through the debugger results in a message: "ModuleNotFoundError: No module named 'matplotlib'" because we have not previously installed the matplotlib package. The tutorial then directs you to set up a project-specific virtual environment in the terminal and then install the package with the following lines of code in the terminal:
 
-  ```python3 -m venv .venv
-  source .venv/bin/activate```
+  `python3 -m venv .venv`
+  `source .venv/bin/activate`
 
 Then:
 
