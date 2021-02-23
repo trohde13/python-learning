@@ -1,6 +1,6 @@
 # python-learning
 
-Installing Python
+## Installing Python
 
 We went to the Python page for the intitial download: (https://www.python.org/downloads/)
 After selecting the most recent version (3.9.2) for Mac OSX, I downloaded it to my computer.
@@ -24,8 +24,9 @@ Then we started a VS Code project:
   code .
 
 Inside the project we selected a Python interpreter by opening the Command Pallette and typing: Python: Select Interpreter. Then we created a folder titled "hello" with a file titled "hello.py" and then in the file we entered the following code: 
-   msg = "Hello World"
-   print(msg)
+
+  msg = "Hello World"
+  print(msg)
 
 To run the msg we cliked the Run Python File in Terminal play button which is a green arrow located in the top right hand corner of the code editor, next to the button that allows the user to split the screen. This runs the msg in the integrated terminal (print is synonomous with console.log in Python).
 
