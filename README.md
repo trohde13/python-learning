@@ -58,3 +58,4 @@ Then:
 
 Finally, rerunning the program results in a pop up waveline graph.
 
+After this we found https://www.w3schools.com/python/ a helpful starting point for a quick overview of Python fundamentals. If we had more time we would have worked through some modules at https://www.codecademy.com/courses/learn-python-3/
