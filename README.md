@@ -60,12 +60,12 @@ The final portion of the tutorial involves installing and using packages. We're 
 
 Running this code through the debugger results in a message: "ModuleNotFoundError: No module named 'matplotlib'" because we have not previously installed the matplotlib package. The tutorial then directs you to set up a project-specific virtual environment in the terminal and then install the package with the following lines of code in the terminal:
 
-      >python3 -m venv .venv
-      source .venv/bin/activate
+>python3 -m venv .venv
+source .venv/bin/activate
 
 Then:
 
-      >python3 -m pip install matplotlib
+`python3 -m pip install matplotlib`
 
 Finally, rerunning the program results in a pop up waveline graph.
 
