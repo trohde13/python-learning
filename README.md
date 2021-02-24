@@ -82,3 +82,66 @@ Finally, rerunning the program results in a pop up waveline graph.
 ## Other Resources We Explored
 
 After this we found https://www.w3schools.com/python/ a helpful starting point for a quick overview of Python fundamentals. If we had more time we would have worked through some modules at https://www.codecademy.com/courses/learn-python-3/
+
+## Notes on Programming in Python
+
+1.  Variables & Types:
+ - variables don't require a special declaration (const, let) they're just declared (x = 4, y = 'string')
+ - when writing to the console, print is the python equivalent to console.log.
+
+`x = 'Hello World'`
+
+`print(x)`
+
+2.  Data structures and loops:
+ - arrays are also known as Python Collections. There are 4 types of collection data types in Python:
+    - List, which is ordered and changeable
+    - Tuple, which is ordered and unchangeable
+    - Set, which is unordered and unindexed
+    - Dictionary, which is unordered and unchangeable
+ - Lists and Tuples allow duplicate members, Sets and Dictionaries do not. 
+ - Python is object oriented, almost everything is an object and a class is used to create objects
+
+`class MyClass:`
+
+`x = 5`
+
+`object1 = MyClass()`
+
+`print(object1.x)`
+
+ --this prints 5
+
+- Loops:
+    Using if and for is similar to JavaScript, but simplified:
+
+
+`a = 13`
+
+`b = 26`
+
+`if b > a:`
+
+`print("b is greater than a")`
+
+
+`books = ["It", "Pet Sematary", "The Shining"]`
+
+`for x in books:`
+
+`print(x)`
+
+3.  Functions and conditionals:
+ - Functions are written with def (for definition)
+
+`def add_function(numOne, numTwo)`
+
+`return numOne + numTwo`
+
+ - operators are similar to JavaScript
+
+ 4. Solve a Whiteboard Problem:
+
+ 
+
+
